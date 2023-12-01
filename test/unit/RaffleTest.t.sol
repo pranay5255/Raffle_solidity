@@ -21,7 +21,7 @@ contract Raffletest is Test{
     address public PLAYER = makeAddr("player");
     uint256 public constant STARTING_USER_BALANCE = 10 ether;
     
-    
+     
     function setUp() external {
         DeployRaffle deployer = new DeployRaffle();
         (raffle,helperConfig) = deployer.run();
