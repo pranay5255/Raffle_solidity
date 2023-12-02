@@ -23,6 +23,7 @@ contract CreateSubscription is Script {
         vm.stopBroadcast();
 
         console.log("Your Sub ID is :", subId);
+        console.log("Update subscription Id in HelperCponfig.s.sol");
 
         return subId;
         
