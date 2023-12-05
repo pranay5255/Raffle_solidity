@@ -15,7 +15,8 @@ contract DeployRaffle is Script {
             address vrfCoordinator,
             bytes32 gasLane,
             uint64 subscriptionId,
-            uint32 callbackGasLimit) = helperConfig.activeNetworkConfig();
+            uint32 callbackGasLimit,
+            address link) = helperConfig.activeNetworkConfig();
 
             if (subscriptionId == 0 ){
             CreateSubscription createSubscription = new CreateSubscription();
