@@ -101,7 +101,7 @@ contract AddConsumer is Script {
            (,
             ,
              address vrfCoordinator,
-             ,
+             , 
              uint64 subId,
              ,
              
